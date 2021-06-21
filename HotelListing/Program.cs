@@ -25,7 +25,7 @@ namespace HotelListing
             try
             {
                 Log.Information("Application Is Starting");
-            CreateHostBuilder(args).Build().Run();
+                CreateHostBuilder(args).Build().Run();
             }
             catch (Exception ex)
             {
